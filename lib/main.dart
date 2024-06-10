@@ -3,7 +3,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
   MaterialApp(
-    home: Text("hello world"),
+    debugShowCheckedModeBanner: false,
+    home: Center(child: 
+    Text("hello world", 
+    style: TextStyle(color: Colors.white)
+     ),
+    ),
   ),
   );
 }
